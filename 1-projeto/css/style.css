@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: 0;
+}
+
+main {
+    height: auto;
+    font-size: 50px;
+    text-align: center;
+}
+
+body {
+    background-image: url(../img/wavey-fingerprint.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #171A21; 
+  width: 90%;
+  max-width: 800px; 
+  margin: 100px auto;
+}
+
+header {
+    background-color: gold;
+}
+
+h1 {
+    font-size: 120%;
+    color: aliceblue;
+    width: 90%;
+    margin: 125px auto 30px ;
+}
+
+p {
+    color: aliceblue;
+    font-size: 60%;
+    margin: 20px auto 0;
+    width: 70%;
+    height: 60%;
+}
+
+h2 {
+    font-size: 70%;
+    color: aliceblue;
+    margin: 0 auto 10px;
+}
+
+strong {
+    font-size: 28px;
+    color: darkorange;
+}
+
+span {
+   color: darkorange; 
+}
+
+header img {
+    width: 15%;
+    max-width: 100px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    background-color: darkorange;
+    width: 50%;
+    max-width: 300px;
+    height: auto;
+    text-align: center;
+    line-height: 66px;
+    border-radius: 40px;
+    font-size: 40%;
+    color: aliceblue;
+    margin: 30px auto;
+}
+
+a:hover{
+    background-color: chartreuse;
+}
+
+
+li  {
+    display: block;
+    background-color: white;
+    border-radius: 60px;
+    font-size: 70% ;
+    margin: 45px auto 20px;
+    width: 70%;
+    max-width: 700px;
+    border: solid 4px yellow;
+}
+
+li strong   {
+    font-size: 100%;;
+    margin-left: 10px;
+}
